@@ -37,7 +37,11 @@ import 'dotenv/config'
       // omitBackground: true,
     })
 
-    const output = path.join(process.cwd(), 'Bryon_Resume.pdf')
+    const output = path.join(
+      process.cwd(),
+      '../portfolio/public',
+      'Bryon_Resume.pdf'
+    )
     fs.writeFileSync(output, pdf)
     await page.close()
   } catch (e) {
