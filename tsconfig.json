@@ -1,0 +1,13 @@
+{
+  "baseUrl": ".",  
+  "compilerOptions": {
+  "module": "commonjs",
+  "esModuleInterop": true,
+  "target": "es2022",
+  "moduleResolution": "node",
+  "resolveJsonModule": true,
+  "sourceMap": true,
+  "outDir": "dist"
+},
+"lib": ["es2022"]
+}
