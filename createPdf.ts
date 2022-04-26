@@ -27,6 +27,8 @@ import 'dotenv/config'
 
     console.log('Im in!!!!')
 
+    // wait for email to show, delay is to prevent page scrapers from getting email.
+    await page.waitForTimeout(3000)
     // const items = await page.$eval('#pdf', (element) => {
     //   return element.innerHTML
     // }) // Get DOM HTML elements
