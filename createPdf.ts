@@ -35,7 +35,7 @@ import 'dotenv/config'
 
     // await page.setContent(items)
     const pdf = await page.pdf({
-      // printBackground: true,
+      printBackground: true,
       // omitBackground: true,
     })
 
