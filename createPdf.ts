@@ -21,7 +21,7 @@ import 'dotenv/config'
     const page = await context.newPage()
 
     //pdf true to omit other page stuff.
-    await page.goto('http://localhost:3000/resume?pdf=true', {
+    await page.goto('http://localhost:3000/resume/?pdf=true', {
       waitUntil: 'networkidle0',
     })
 
