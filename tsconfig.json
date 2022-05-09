@@ -9,5 +9,7 @@
   "sourceMap": true,
   "outDir": "dist"
 },
-"lib": ["es2022"]
+"lib": ["es2022"],
+"include": ["**/*.ts", "**/*.tsx"],
+"exclude": ["node_modules"]
 }
