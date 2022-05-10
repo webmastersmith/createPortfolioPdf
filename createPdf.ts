@@ -41,7 +41,7 @@ import 'dotenv/config'
 
     const output = path.join(
       process.cwd(),
-      process.env.DOWNLOADS_FOLDER,
+      process.env.PUBLIC_FOLDER,
       'Bryon_Resume.pdf'
     )
     fs.writeFileSync(output, pdf)
